@@ -1,0 +1,57 @@
+.about {
+  background-color: #c2dcfd;
+  margin: 5px;
+  padding: 5px;
+}
+
+.about img {
+  display: block;
+  width: 300px;
+  height: 400px;
+}
+
+.about p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: justify;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: black;
+}
+
+.about h3 {
+  font-family: cursive;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  font-size: large;
+}
+
+.container-about {
+  background-image: url("banner.jpeg");
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.elementor-widget-container h3 {
+  text-transform: uppercase;
+  color: #faac05;
+  font-size: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+.elementor-widget-second h3 {
+  text-transform: uppercase;
+  color: #faac05;
+  font-size: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}

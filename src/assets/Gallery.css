@@ -1,0 +1,70 @@
+.media-container {
+    grid-gap: 15px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin: 20px auto;
+}
+
+.media {
+    cursor: pointer;
+    border: 5px solid #fff;
+    box-shadow: 0 5px 15px rgb(19, 2, 250);
+    cursor: pointer;
+    height: 220px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.media img {
+    width: 100%;
+    height: auto;
+}
+
+.popup-media {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.popup-media img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.prev-btn,
+.next-btn {
+    padding: 10px;
+    margin: 10px;
+    background-color: #f8c007;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    background-color: #f8c007;
+}
+
+.prev-btn:disabled,
+.next-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

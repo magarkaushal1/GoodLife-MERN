@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(240, 241, 255);
+}
+
+.container {
+    max-width: 95%;
+    margin: auto;
+}
+
+.flexSB {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgb(81, 62, 252);
+    transition: 0.5s;
+}
+
+.icon:hover {
+    cursor: pointer;
+    background-color: rgb(243, 164, 46);
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+#header {
+    background: rgb(170, 190, 235);
+    display: flex;
+    min-height: 500px;
+}
+
+.card {
+    width: 100%;
+    transition: all 0.2s ease;
+    background-color: #c2dcfd;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+    box-shadow: 0 0.5rem 1rem rgb(248, 154, 13);
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+    display: grid;
+    place-items: center;
+}
+
+.inner:hover img {
+    transform: scale(1.5);
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 13px;
+    color: black;
+}
+
+.parallax {
+    background-image: url("about.jpeg");
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.banner-text h2 {
+    color: rgb(248, 163, 4);
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+.banner-text h5 {
+    font-size: 18px;
+    color: rgb(248, 163, 4);
+}
+
+.container-services {
+    margin: 5px;
+    padding: 5px;
+}
+
+.container-services h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.container-services .box {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.container-services .box img {
+    height: 80px;
+}
+
+.container-services .box .service-content .text {
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: blue;
+}
+
+.text:hover {
+    background-color: rgb(243, 164, 46);
+}
+
+.container-services .box p {
+    font-size: 15px;
+    padding: 10px 0;
+    line-height: 1.8;
+}
+
+.container-services .box .btn {
+    margin-top: 10px;
+    display: inline-block;
+    background: blue;
+    color: white;
+    font-size: 16;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.feature-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+}
+
+@media (max-width: 768px) {
+    .container-services {
+        padding: 20px;
+    }
+}
+
+.container-services .btn:hover {
+    background: rgb(243, 164, 46);
+}
+
+.btn:hover {
+    background: rgb(243, 164, 46);
+}
+
+.feature-services.container-services.box {
+    width: 100%;
+    transition: all 0.2s ease;
+    background-color: #c2dcfd;
+}
+
+.interested .interest {
+    text-align: center;
+    font-size: 30px;
+}
+
+.interested .interest h2 {
+    text-transform: uppercase !important;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.container-admin {
+    display: flex;
+    margin-top: 10px;
+}
+
+.other {
+    flex: 4;
+    background-color: rgb(255, 219, 142);
+}
+
+.testimonial {
+    position: relative;
+    min-height: 40vh;
+    width: 100%;
+    background: #070c0d;
+    overflow: hidden;
+}
+
+
+/* #content {
+  position: relative;
+  width: calc(100% - 260px);
+  left: 260px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  #content {
+    position: relative;
+    width: calc(100% - 60px);
+    transition: all 0.3s ease;
+  }
+} */

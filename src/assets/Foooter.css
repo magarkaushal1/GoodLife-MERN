@@ -1,0 +1,143 @@
+.footer {
+  background: linear-gradient(
+    90deg,
+    rgb(105, 162, 248) 50%,
+    rgb(255, 255, 255) 100%
+  );
+}
+
+.elementor-column-wrap {
+  padding: 10px;
+  width: 100%;
+  position: relative;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.elementor-column-wrap img {
+  padding: 5px;
+  height: 80px;
+}
+
+.icon-box-wrapper {
+  text-align: left;
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon-box-content {
+  padding: 1px;
+  margin: 1px;
+}
+
+.icon-box-icon {
+  margin-right: 17px;
+  flex: 0 0 auto;
+}
+
+.icon-animation {
+  font-size: 25px;
+  border-radius: 50%;
+  text-align: center;
+  color: rgb(110 110 114);
+  transition: 0.5s;
+}
+
+.icon i {
+  transform: rotate(0deg);
+  width: 1em;
+  height: 1em;
+  position: relative;
+  display: block;
+}
+
+.icon-box-title {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.icon-box-title a {
+  color: white;
+}
+
+.icon-box-title a:hover {
+  color: #fda500;
+}
+
+.elementor-flex-column {
+  margin: 10px;
+  padding: 5px;
+}
+
+.elementor-flex-column li {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.widget-title {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.widget-title h5 {
+  font-size: 20px;
+  font-family: system-ui;
+}
+
+.widget-container {
+  margin: 10px;
+}
+
+.footer-bottom {
+  background: linear-gradient(
+    90deg,
+    rgb(248, 169, 22) 50%,
+    rgb(255, 255, 255) 100%
+  );
+}
+
+.bottom p {
+  font-family: auto;
+  text-align: center;
+}
+
+hr.foooterhr {
+  margin: 10px 0;
+  width: 100%;
+  border-bottom: 2px solid #ffb606 !important;
+  border-top: none !important;
+  background: #ffb606 !important;
+}
+
+.flag-box-title a {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+.flag-box-title a:hover {
+  color: #fda500;
+}
+
+.text-socialmedia {
+  cursor: pointer;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.text-socialmedia :hover {
+  cursor: pointer;
+  color: rgb(243, 164, 46);
+}
+
+.nav-item .NavLink:hover {
+  cursor: pointer;
+  color: rgb(243, 164, 46);
+}
+
+.elementor-column-wrap .footor-img .logo img {
+  padding: 5px;
+  height: 80px;
+  width: 100%;
+}

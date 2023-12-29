@@ -1,0 +1,103 @@
+.head {
+  color: rgb(49, 46, 243);
+  max-width: 95%;
+  margin: auto;
+}
+
+.top-bar {
+  padding-bottom: 3px;
+}
+
+.top-bar span {
+  font-size: 12px;
+  padding: 1px 5px;
+}
+
+.col .left {
+  text-align: left;
+}
+
+.col .right {
+  text-align: right;
+}
+
+.phone :hover {
+  cursor: pointer;
+  background-color: rgb(243, 164, 46);
+}
+
+.email :hover {
+  cursor: pointer;
+  background-color: rgb(243, 164, 46);
+}
+
+.head .icon {
+  margin-left: 10px;
+}
+
+.container {
+  max-width: 95%;
+  margin: auto;
+}
+
+.navbar {
+  background: linear-gradient(
+    90deg,
+    rgb(105, 162, 248) 50%,
+    rgb(255, 255, 255) 100%
+  );
+}
+
+.nav-item.dropdown.dropdown-menushow {
+  background-color: rgb(243, 164, 46);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: var(--bs-navbar-nav-link-padding-x);
+  padding-left: var(--bs-navbar-nav-link-padding-x);
+  color: white;
+}
+
+.nav-item .nav-link:hover {
+  cursor: pointer;
+  color: rgb(243, 164, 46);
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  cursor: pointer;
+  color: rgb(243, 164, 46);
+}
+
+.button {
+  text-align: center;
+  text-decoration: white;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button .btn {
+  font-size: 18px;
+  background-color: rgb(4, 76, 233);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-decoration: center;
+  text-decoration-color: white;
+}
+
+.button .btn:hover {
+  background: rgb(243, 164, 46);
+}
+
+.btn:hover {
+  background: rgb(243, 164, 46);
+}
+
+.navbar-brand img {
+  height: 35px;
+  width: 100%;
+}

@@ -1,0 +1,43 @@
+.elementor-widget p {
+    font-family: cursive;
+    font-size: larger;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+}
+
+.h3 {
+    font-family: cursive;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: large;
+}
+
+.container-about {
+    background-image: url("bannerkk.jpeg");
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.elementor-widget-second h3 {
+    text-transform: uppercase;
+    color: #faac05;
+    font-size: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}

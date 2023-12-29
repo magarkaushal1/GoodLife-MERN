@@ -1,0 +1,133 @@
+/* ... (other CSS styles) */
+
+.form-img {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.form-img .admin-img {
+    text-align: center;
+    font-size: 300px;
+    height: 100;
+    width: 250px;
+}
+
+.japan-details {
+    text-align: justify;
+}
+
+
+/* Style for the table headers with scope 'col' */
+
+.table th[scope="col"] {
+    font-size: 0.9rem;
+    padding: 8px;
+}
+
+
+/* Style for the table data cells with class 'fb' */
+
+.table td.fb {
+    font-size: 0.8rem;
+    padding: 8px;
+}
+
+
+/* Style for the table images in cells with class 'img-te' */
+
+.table td.img-te img {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Style for the action buttons */
+
+.table .button {
+    text-align: center;
+}
+
+
+/* Style for the edit and delete buttons */
+
+.table .btn-outline-primary {
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid #007bff;
+    color: #007bff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/* Responsive adjustments for small screens */
+
+@media (max-width: 576px) {
+    /* Adjust the font size and padding for small screens */
+    .table th[scope="col"],
+    .table td.fb {
+        font-size: 0.8rem;
+        padding: 6px;
+    }
+    /* Adjust the font size and padding for small screens */
+    .table td.img-te img {
+        width: 60px;
+    }
+    /* Adjust the button size for small screens */
+    .table .btn-outline-primary {
+        padding: 3px;
+    }
+}
+
+
+/* Responsive adjustments for medium-sized screens (e.g., tablets) */
+
+@media (min-width: 577px) and (max-width: 991px) {
+    /* Adjust the font size and padding for medium screens */
+    .table th[scope="col"],
+    .table td.fb {
+        font-size: 0.9rem;
+        padding: 7px;
+    }
+    /* Adjust the font size and padding for medium screens */
+    .table td.img-te img {
+        width: 70px;
+    }
+}
+
+
+/* Responsive adjustments for large screens (e.g., desktops) */
+
+@media (min-width: 992px) {
+    /* Adjust the font size and padding for large screens */
+    .table th[scope="col"],
+    .table td.fb {
+        font-size: 1rem;
+        padding: 10px;
+    }
+    /* Adjust the font size and padding for large screens */
+    .table td.img-te img {
+        width: 80px;
+    }
+    /* Adjust the button size for large screens */
+    .table .btn-outline-primary {
+        padding: 5px;
+    }
+}
+
+
+/* Add this CSS to your 'ielts.css' or your preferred CSS file */
+
+.small-th {
+    font-size: 12px;
+    /* Adjust the font size as needed */
+}
+
+.small-td {
+    font-size: 12px;
+    /* Adjust the font size as needed */
+}

@@ -1,0 +1,122 @@
+.component-page-heading {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c2dcfd;
+}
+
+.image-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-conatainer .carousel-slide {
+  display: flex;
+  transition: transform 0.2s ease-in-out;
+}
+
+.image-container .carousel-item img {
+  width: 100%;
+  height: 300px;
+}
+
+.image-text span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(252, 250, 249);
+  font: bold;
+  font-family: arial;
+  font-size: 3vw;
+}
+
+.image-text h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-shadow: blue;
+}
+
+.aboutjapan {
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: rgb(8, 8, 8);
+  font: bold;
+  background-color: #c2dcfd;
+}
+
+.aboutjapan p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: justify;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.study {
+  background-color: #c2dcfd;
+}
+
+.study img {
+  display: block;
+  width: 300px;
+  height: 400px;
+}
+
+.study p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: justify;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: black;
+}
+
+.study .btn {
+  font-size: 12px;
+  background-color: rgb(4, 76, 233);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-decoration: center;
+  text-decoration-color: white;
+}
+
+.study .btn:hover {
+  background: rgb(243, 164, 46);
+}
+
+.modal-header {
+  text-align: center;
+  color: rgb(5, 5, 5);
+  font: bold;
+}
+
+.modal-body {
+  background-color: #c2dcfd;
+}
+
+.modal-body img {
+  width: 400px;
+  height: 200px;
+}
+
+.modal-body p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: justify;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: black;
+}
+
+.modal-text p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: justify;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: black;
+}

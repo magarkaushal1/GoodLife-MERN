@@ -1,0 +1,11 @@
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 40%;
+}
+
+.details {
+    text-align: center;
+}

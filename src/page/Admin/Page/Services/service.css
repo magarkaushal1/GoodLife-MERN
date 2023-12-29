@@ -1,0 +1,94 @@
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.breadcrumb-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.breadcrumb-item.active {
+    color: #555;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+}
+
+.button {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button button {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button button:hover {
+    opacity: 0.9;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.img-te img {
+    max-width: 100px;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 20px;
+    }
+}
